@@ -1,0 +1,17 @@
+{
+    "$schema": "schema.json",
+    "actions": [
+        {
+            "verb": "applyTheme",
+            "themeName": "Cloudriven blue"
+        },
+
+        {
+            "verb": "associateExtension",
+            "title": "SPFXApplicationCustomizer",
+            "location": "ClientSideExtension.ApplicationCustomizer",
+            "clientSideComponentId": "de07ec52-f31e-48cc-bd58-bcb3c202d905",
+            "scope": "Web"
+        }
+    ]
+}
